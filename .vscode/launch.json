@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/home/jacques/Github/learn-javascript/1. Build a Passenger Counter App/Active Project/index.html"
+            "file": "/home/jacques/Github/learn-javascript/2. Practice time - part 1/6. Calculator challenge/index.html"
         }
     ]
 }
