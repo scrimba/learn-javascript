@@ -1,7 +1,7 @@
 let welcomeEl = document.getElementById("welcome-el")
 
-let name = "Per Harald Borgen"
-let greeting = "Welcome back "
+let myName = "Patrick Aziken"
+let greeting = "Welcome back"
 
 welcomeEl.innerText = greeting + name
 
@@ -9,3 +9,7 @@ welcomeEl.innerText = greeting + name
 // WRITE YOUR CODE BELOW HERE
 // HINT: count = count + 1
 
+function renderGreeting() {
+    welcomeEl.innerText = `${greeting}, ${myName}!`;
+}
+renderGreeting();
