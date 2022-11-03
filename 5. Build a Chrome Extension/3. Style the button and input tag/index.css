@@ -1,7 +1,7 @@
 body {
-    margin: 0;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*
@@ -11,12 +11,48 @@ Style our app according to the provided design!
 green color -> #5f9341
 
 */
-
-
-input {
-    
+div {
+  margin: 20px auto;
+  width: 180px;
+  position: relative;
 }
-
+div input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+}
+.from-left span {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #009688;
+  transition: all 0.6s;
+}
+.from-left span {
+  left: 0;
+}
+.from-right span {
+  right: 0;
+}
+.from-middle span {
+  left: 50%;
+  transform: translateX(-50%);
+}
+input:focus + span {
+  width: 100%;
+}
+p {
+  margin-top: 80px;
+  text-align: center;
+  font: 25px bold Arial, Helvetica, sans-serif;
+}
 button {
-    
+  margin: 20px auto;
+  width: 180px;
+  position: relative;
 }
