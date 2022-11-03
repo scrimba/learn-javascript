@@ -1,17 +1,17 @@
 // document.getElementById("count-el").innerText = 8;
 
-// let firstBatch = 5;
-// let secondBatch = 7;
-// let count = firstBatch + secondBatch;
-// console.log(count);
-
+// Initialize the count as 0
+// Listen for clicks on the increment button 
+// Increment the count variable when the button is clicked 
+// change the "count-el" in the HTML to reflect the new count
 /*
-let myAge = 31;
-let humanDogRatio = 1/7;
+function increment() {
+    console.log("The increment button was clicked");
+}
 
-let myDogAge = myAge / humanDogRatio;
-console.log(myDogAge);
+function save() {
+    console.log("The save button was clicked");
+}
 */
 
-/* Stopped on 16.14 of the video https://www.youtube.com/watch?v=jS4aFq5-91M&list=PLkcZbH-530dSBMc1U4rrcSacI-lzJrQT9&index=9&t=8s
-*/
+
