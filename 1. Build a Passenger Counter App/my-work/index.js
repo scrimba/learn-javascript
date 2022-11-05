@@ -1,17 +1,20 @@
-// document.getElementById("count-el").innerText = 8;
+// let countEl = document.getElementById("count-el");
+// let count = 0; 
 
-// Initialize the count as 0
-// Listen for clicks on the increment button 
-// Increment the count variable when the button is clicked 
-// change the "count-el" in the HTML to reflect the new count
-/*
-function increment() {
-    console.log("The increment button was clicked");
-}
+// function incrementButtonClick() {
+//     count = count + 1;
+//     countEl.innerText = count;
+// }
 
-function save() {
-    console.log("The save button was clicked");
-}
-*/
+// function saveButtonClick() {
+//     console.log(count);
+// }
 
+let myName = 5;
+let greeting = "Hi, my name is ";
+
+let myGreeting = greeting + myName + "!";
+console.log(myGreeting);
+
+// video paused at 56.39
 
