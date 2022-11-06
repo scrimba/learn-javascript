@@ -1,20 +1,15 @@
-// let countEl = document.getElementById("count-el");
-// let count = 0; 
+let saveEl = document.getElementById("save-el");
+let countEl = document.getElementById("count-el");
+let count = 0; 
 
-// function incrementButtonClick() {
-//     count = count + 1;
-//     countEl.innerText = count;
-// }
+function incrementButtonClick() {
+    count += 1;
+    countEl.textContent = count;
+}
 
-// function saveButtonClick() {
-//     console.log(count);
-// }
-
-let myName = 5;
-let greeting = "Hi, my name is ";
-
-let myGreeting = greeting + myName + "!";
-console.log(myGreeting);
-
-// video paused at 56.39
-
+function saveButtonClick() {
+    let previousEntries = count + " - ";
+    saveEl.textContent += previousEntries;
+    count = 0;
+    countEl.textContent = count;
+}
