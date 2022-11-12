@@ -1,13 +1,19 @@
 let data = [
-    {
-        player: "Jane",
-        score: 52
-    }, 
-    {
-        player: "Mark",
-        score: 41
-    }
-]
+  {
+    player: "Jane",
+    score: 52,
+  },
+  {
+    player: "Mark",
+    score: 41,
+  },
+];
+
+const buttonEl = document.getElementById("btn-el");
+
+buttonEl.addEventListener("click", () => {
+  console.log(data[0].score);
+});
 
 // Fetch the button from the DOM, store it in a variable
 // Use addEventListener() to listen for button clicks
