@@ -8,6 +8,17 @@
 // "The 2 best fruits are Apples, Bananas"
 
 // Use both a for loop and a template string to solve the challenge
+
+const countries = ["China", "India", "USA"];
+const description = "largest countries";
+
+const fruits = ["Apples", "Bananas"];
+const bestFruitsDes = "best fruits";
+
 function generateSentence(desc, arr) {
-    
+  for (var i = 0; i < arr.length; i) {
+    console.log(`The ${arr.length} ${desc} are ${arr}`);
+    break;
+  }
 }
+generateSentence(bestFruitsDes, fruits);
