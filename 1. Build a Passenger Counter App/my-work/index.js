@@ -1,6 +1,7 @@
 let saveEl = document.getElementById("save-el");
 let countEl = document.getElementById("count-el");
 let count = 0; 
+console.log(7);
 
 function incrementButtonClick() {
     count += 1;
