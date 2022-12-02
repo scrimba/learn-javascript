@@ -8,3 +8,14 @@ function Lap() {
 }
 
 Lap()
+
+let lapsCompleted = 0
+
+function lapAdd() {
+    lapsCompleted = lapsCompleted + 1
+    console.log(lapsCompleted)
+}
+
+lapAdd()
+lapAdd()
+lapAdd()

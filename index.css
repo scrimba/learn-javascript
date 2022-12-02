@@ -1,4 +1,6 @@
-
+body {
+    font-family: Georgia;
+}
 button {
     background-color: red;
     color: white;
@@ -6,11 +8,38 @@ button {
     position: inherit;
     padding: 5px 25px;
 }
+button:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+    color: red;
+}
+#save-btn {
+    background-color: greenyellow;
+    color: white;
+    text-align: center;
+    position: inherit;
+    padding: 5px 25px;
+}
+#save-btn:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+    color: greenyellow;
+}
 h1, h2 {
     text-align: center;
     font-weight: bold;
 }
-body {
+h2 {
+    font-size: 50px;
+}
+.box {
+    border-radius: 10%;
+    padding: 5px;
+    margin: 0 auto;
+    width: 30%;
+    height: 20px;
     text-align: center;
-    background-color: linear-gradient(115deg, yellow 30%, blue 70%);
+    box-shadow: 0 4px 4px 0;
+    border: 1px solid black;
+    background-color: aqua;
 }
