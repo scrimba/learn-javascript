@@ -1,0 +1,16 @@
+
+button {
+    background-color: red;
+    color: white;
+    text-align: center;
+    position: inherit;
+    padding: 5px 25px;
+}
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+}
+body {
+    text-align: center;
+    background-color: linear-gradient(115deg, yellow 30%, blue 70%);
+}
