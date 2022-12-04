@@ -2,12 +2,12 @@ let lap1 = 34
 let lap2 = 33
 let lap3 = 36
 
-function Lap() {
+function lap() {
     totalLap = lap1 + lap2 + lap3
     console.log(totalLap)
 }
 
-Lap()
+lap()
 
 let lapsCompleted = 0
 
