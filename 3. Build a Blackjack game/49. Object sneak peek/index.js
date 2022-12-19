@@ -7,14 +7,20 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
-let player = {
-    name: "Per",
-    chips: 145
-}
+// let player = {
+//     name: "Veronika",
+//     chips: 145
+// }
 
+let playerName = "Veronika"
+let playerChips = 145
 
 let playerEl = document.getElementById("player-el")
-playerEl.textContent = player.name + ": $" + player.chips
+playerEl.textContent = playerName + ": $" + playerChips
+
+
+// let playerEl = document.getElementById("player-el")
+// playerEl.textContent = player.name + ": $" + player.chips
 
 function getRandomCard() {
     let randomNumber = Math.floor( Math.random()*13 ) + 1

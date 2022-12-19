@@ -1,7 +1,12 @@
 let player = {
     name: "Per",
     chips: 200,
+    sayHello: function(){
+        console.log("Hello!")
+    }
 }
+
+player.sayHello()
 
 let cards = []
 let sum = 0
